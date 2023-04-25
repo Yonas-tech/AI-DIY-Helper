@@ -1,4 +1,4 @@
-const My_API_KEY = "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";
+const My_API_KEY = process.env.My_API_KEY;
 // https://api.openai.com/v1/completions   for model: text-davinci-003
 // gpt-3.5-turbo
 // max_tokens: 7
